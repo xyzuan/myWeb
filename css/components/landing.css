@@ -1,0 +1,56 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-title {
+    margin-top: -220px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+    gap: 4rem;
+}
+
+p {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 0%;
+}
+
+p1 {
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.btn {
+    align-items: flex-start;
+    place-items: left;
+}
+
+.btn-cv {
+    color: #FFE600;
+    background-color: black;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px 70px 24px 70px;
+    margin: 32px;
+    border-radius: 48px;
+}
+
+
+.btn-git {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px 70px 24px 70px;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    border-radius: 48px;
+}
+
+.landing-img {
+    display: flex;
+    place-items: right;
+}

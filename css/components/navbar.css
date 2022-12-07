@@ -1,10 +1,14 @@
 .navtop-container{
+    background-color: var(--primaryColor);
     clear:both;
     overflow:auto;
+    position: sticky;
+    top: 0px;
 }
 
 nav {
     float: right;
+    padding: 12px 0 12px 0;
 }
 
 .navtop-logo a{
@@ -14,14 +18,14 @@ nav {
     padding: 0 15px 0 15px;
 }
 
-ul li{
+li{
     display: inline-block;
     padding: 0 15px 0 15px;
     font-size: 19px;
     font-weight: 500;
 }
 
-ul li.active {
+li.active {
     font-size: 19px;
     font-weight: 600;
     color: var(--primaryColor);
@@ -30,6 +34,6 @@ ul li.active {
     padding: 12px 28px 12px 28px;
 }
 
-ul li:hover {
+li:hover {
     padding: 12px 28px 12px 28px;
 }

@@ -16,6 +16,8 @@
   --body-font: "Plus Jakarta Sans", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
+  --h1-font-size: 1rem;
+  --h0-font-size: 0.75rem;
   --normal-font-size: 0.938rem;
   --smaller-font-size: 0.75rem;
 }

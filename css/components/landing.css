@@ -1,6 +1,6 @@
 .landing-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-image: "assets/landing/xyzuan-sign.png";
 }
@@ -9,8 +9,14 @@
   margin-top: -220px;
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 0;
-  gap: 4rem;
+  padding: 0 0 0 10%;
+  gap: 32px;
+}
+
+.landing-title p0 {
+  font-size: var(--h2-font-size);
+  font-weight: 400;
+  line-height: 5rem;
 }
 
 .landing-title p {
@@ -22,11 +28,10 @@
 .landing-title p1 {
   font-size: var(--big-font-size);
   font-weight: 800;
+  line-height: 20%;
 }
 
 .btn {
-  align-items: flex-start;
-  place-items: left;
 }
 
 .btn-cv {
@@ -35,7 +40,7 @@
   font-size: var(--h2-font-size);
   font-weight: 500;
   padding: 24px 70px 24px 70px;
-  margin: 32px;
+  margin: 0 32px 0 0;
   border-radius: var(--card-radius);
   text-decoration: none;
 }
@@ -68,6 +73,5 @@
 }
 
 .landing-img {
-  display: flex;
-  place-items: right;
+  padding: 0 10% 0 0;
 }

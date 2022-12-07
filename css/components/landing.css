@@ -37,6 +37,7 @@
   padding: 24px 70px 24px 70px;
   margin: 32px;
   border-radius: var(--card-radius);
+  text-decoration: none;
 }
 
 .btn-cv:hover {
@@ -57,6 +58,7 @@
   border-width: medium;
   border-color: black;
   border-radius: var(--card-radius);
+  text-decoration: none;
 }
 
 .btn-git:hover {

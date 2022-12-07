@@ -17,12 +17,12 @@ nav {
 ul li{
     display: inline-block;
     padding: 0 15px 0 15px;
-    font-size: 28px;
+    font-size: 19px;
     font-weight: 500;
 }
 
 ul li.active {
-    font-size: 28px;
+    font-size: 19px;
     font-weight: 600;
     color: #FFE600;
     background-color: black;

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: "assets/landing/xyzuan-sign.png";
 }
 
 .landing-title {
@@ -38,6 +39,14 @@ p1 {
     border-radius: 48px;
 }
 
+.btn-cv:hover {
+    background-color: transparent;
+    color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    border-radius: 48px;
+}
 
 .btn-git {
     color: black;
@@ -48,6 +57,12 @@ p1 {
     border-width: medium;
     border-color: black;
     border-radius: 48px;
+}
+
+.btn-git:hover {
+    color: #FFE600;
+    background-color: black;
+    font-weight: 700;
 }
 
 .landing-img {

@@ -1,39 +1,66 @@
-.navtop-container{
-    background-color: var(--primaryColor);
-    clear:both;
-    overflow:auto;
-    position: sticky;
-    top: 0px;
+.navtop-container {
+  background-color: var(--primaryColor);
+  clear: both;
+  overflow: auto;
+  position: sticky;
+  top: 8px;
 }
 
 nav {
-    float: right;
-    padding: 12px 0 12px 0;
+  float: right;
+  padding: 12px 0 12px 0;
 }
 
-.navtop-logo a{
-    float: left;
-    font-size: 42px;
-    font-weight: bolder;
-    padding: 0 15px 0 15px;
+.navtop-logo a {
+  float: left;
+  font-size: var(--h2-font-size);
+  font-weight: bolder;
+  padding: 12px 15px 12px 15px;
 }
 
-li{
-    display: inline-block;
-    padding: 0 15px 0 15px;
-    font-size: 19px;
-    font-weight: 500;
+.navtop-logo .active {
+  border-radius: 8px;
+  padding: 12px 28px 12px 28px;
 }
 
-li.active {
-    font-size: 19px;
-    font-weight: 600;
-    color: var(--primaryColor);
-    background-color: black;
-    border-radius: var(--card-radius);
-    padding: 12px 28px 12px 28px;
+.navtop-logo .active a:hover {
+  font-size: var(--h2-font-size);
+  padding: 12px 28px 12px 28px;
+  border-style: none;
 }
 
-li:hover {
-    padding: 12px 28px 12px 28px;
+.navtop-logo a:hover {
+  font-size: var(--h2-font-size);
+  padding: 12px 28px 12px 28px;
+  border-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 0 15px 0 15px;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+a:hover {
+  border-radius: var(--card-radius);
+  border-style: solid;
+  font-weight: 600;
+  padding: 12px 28px 12px 28px;
+}
+
+.navlink {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  color: var(--primaryColor);
+  background-color: black;
+  border-radius: var(--card-radius);
+  padding: 12px 28px 12px 28px;
+}
+
+.active:hover {
+  border-style: none;
 }

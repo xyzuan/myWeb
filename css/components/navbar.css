@@ -1,0 +1,35 @@
+.navtop-container{
+    clear:both;
+    overflow:auto;
+}
+
+nav {
+    float: right;
+}
+
+.navtop-logo a{
+    float: left;
+    font-size: 42px;
+    font-weight: bolder;
+    padding: 0 15px 0 15px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+ul li.active {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFE600;
+    background-color: black;
+    border-radius: 24px;
+    padding: 12px 28px 12px 28px;
+}
+
+ul li:hover {
+    padding: 12px 28px 12px 28px;
+}

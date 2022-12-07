@@ -13,13 +13,13 @@
     gap: 4rem;
 }
 
-p {
+.landing-title p {
     font-size: 64px;
     font-weight: bold;
     line-height: 0%;
 }
 
-p1 {
+.landing-title p1 {
     font-size: 96px;
     font-weight: 800;
 }
@@ -30,13 +30,13 @@ p1 {
 }
 
 .btn-cv {
-    color: #FFE600;
+    color: var(--primaryColor);
     background-color: black;
     font-size: 24px;
     font-weight: 500;
     padding: 24px 70px 24px 70px;
     margin: 32px;
-    border-radius: 48px;
+    border-radius: var(--card-radius);
 }
 
 .btn-cv:hover {
@@ -45,7 +45,7 @@ p1 {
     border-style: solid;
     border-width: medium;
     border-color: black;
-    border-radius: 48px;
+    border-radius: var(--card-radius);
 }
 
 .btn-git {
@@ -56,11 +56,11 @@ p1 {
     border-style: solid;
     border-width: medium;
     border-color: black;
-    border-radius: 48px;
+    border-radius: var(--card-radius);
 }
 
 .btn-git:hover {
-    color: #FFE600;
+    color: var(--primaryColor);
     background-color: black;
     font-weight: 700;
 }

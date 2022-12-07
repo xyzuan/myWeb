@@ -24,9 +24,9 @@ ul li{
 ul li.active {
     font-size: 19px;
     font-weight: 600;
-    color: #FFE600;
+    color: var(--primaryColor);
     background-color: black;
-    border-radius: 24px;
+    border-radius: var(--card-radius);
     padding: 12px 28px 12px 28px;
 }
 

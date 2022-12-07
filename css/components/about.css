@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: var(--card-radius);
+}
+
+.about-img {
+    display: flex;
+    border-radius: var(--card-radius);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: aliceblue;
+}
+
+.about-img img {
+    border-radius: var(--card-radius);
+    height: 647.97px;
+    width: 372px;
+}
+
+.about-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-desc-container {
+    margin-right: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-desc p {
+    color: var(--primaryColor);
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.about-desc p1 {
+    color: var(--secondaryColor);
+    font-size: 19px;
+    font-weight: 500;
+}

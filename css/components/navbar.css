@@ -1,4 +1,4 @@
-.navtop-container {
+.nav-container {
   background-color: var(--primaryColor);
   clear: both;
   overflow: auto;
@@ -11,25 +11,25 @@ nav {
   padding: 12px 0 12px 0;
 }
 
-.navtop-logo a {
+.nav-logo a {
   float: left;
   font-size: var(--h2-font-size);
   font-weight: bolder;
   padding: 12px 15px 12px 15px;
 }
 
-.navtop-logo .active {
+.nav-logo .active {
   border-radius: 8px;
   padding: 12px 28px 12px 28px;
 }
 
-.navtop-logo .active a:hover {
+.nav-logo .active a:hover {
   font-size: var(--h2-font-size);
   padding: 12px 28px 12px 28px;
   border-style: none;
 }
 
-.navtop-logo a:hover {
+.nav-logo a:hover {
   font-size: var(--h2-font-size);
   padding: 12px 28px 12px 28px;
   border-style: none;
@@ -49,9 +49,13 @@ a:hover {
   padding: 12px 28px 12px 28px;
 }
 
-.navlink {
+.nav-items {
   color: black;
   text-decoration: none;
+}
+
+.nav-button {
+  display: none;
 }
 
 .active {
@@ -63,4 +67,51 @@ a:hover {
 
 .active:hover {
   border-style: none;
+}
+
+.nav-toggle {
+  display: none;
+ }
+
+ .show-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.main-blur {
+  filter: blur(220px);
+  background-color: rgba(0, 0, 0, 0.712);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+.nav-container {
+  border-radius: var(--card-radius);
+  background-color: transparent;
+}
+
+  .nav-menu {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+ }
+
+ .nav-link::after {
+    display: none;
+ }
+
+ .nav-logo .active {
+  border-radius: var(--card-radius);
+ }
+
+ .nav-toggle {
+  color: var(--primaryColor);
+  border-radius: var(--card-radius);
+  background-color: black;
+  display: inherit;
+  font-size: var(--h2-font-size);
+  float: right;
+  padding: 12px 15px 12px 15px;
+ }
 }

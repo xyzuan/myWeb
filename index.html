@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jody Yuantoro</title>
 
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/components/navbar.css" />
     <link rel="stylesheet" href="css/components/landing.css" />
     <link rel="stylesheet" href="css/components/about.css" />
   </head>
   <body>
-    <div class="navtop-container">
-      <div class="navtop-logo">
-        <a href="#" class="navlink active">&ltxyzuan/&gt</a>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#" class="nav-items active">&ltxyzuan/&gt</a>
       </div>
-      <nav id="navtop-items">
-        <ul>
-          <li><a href="#about" class="navlink">about</a></li>
-          <li><a href="#project" class="navlink">project</a></li>
-          <li><a href="#experience" class="navlink">experience</a></li>
-          <li><a href="#blog" class="navlink">blog</a></li>
-          <li><a href="#contact" class="navlink">contact</a></li>
-        </ul>
+      <nav class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-items">about</a></li>
+            <li><a href="#project" class="nav-items">project</a></li>
+            <li><a href="#experience" class="nav-items">experience</a></li>
+            <li><a href="#blog" class="nav-items">blog</a></li>
+            <li><a href="#contact" class="nav-items">contact</a></li>
+            <a href="javascript:void(0);" class="nav-button" onclick="navAction()">-</a>
+          </ul>
       </nav>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+     </div>
     </div>
 
     <section id="home">
@@ -82,7 +88,8 @@
     </section>
 
     <section id="project">
-      <div class="project-container"></div>
+      <div class="project-container">
+      </div>
     </section>
 
     <section id="experience">

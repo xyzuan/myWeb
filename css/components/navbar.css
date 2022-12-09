@@ -35,14 +35,14 @@ nav {
   border-style: none;
 }
 
-li {
+.nav-list li {
   display: inline-block;
   padding: 0 15px 0 15px;
   font-size: var(--normal-font-size);
   font-weight: 500;
 }
 
-a:hover {
+.nav-list a:hover {
   border-radius: var(--card-radius);
   border-style: solid;
   font-weight: 600;

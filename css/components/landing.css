@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: "assets/landing/xyzuan-sign.png";
 }
 
 .landing-title {
   margin-top: -220px;
   display: flex;
-  flex-direction: column;
+  
+  flex-wrap: wrap;
   padding: 0 0 0 10%;
   gap: 32px;
 }
@@ -29,9 +29,6 @@
   font-size: var(--big-font-size);
   font-weight: 800;
   line-height: 20%;
-}
-
-.btn {
 }
 
 .btn-cv {
@@ -74,4 +71,36 @@
 
 .landing-img {
   padding: 0 10% 0 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+  .btn-cv {
+    margin: 0 0 0 0;
+    padding-left: 42px;
+  }
+
+  .btn-git {
+    padding-left: 42px;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .landing-container {
+    flex-direction: column;
+  }
+
+  .landing-title {
+    padding-top: 75%;
+    
+  }
+
+  .landing-img {
+    display: none;
+  }
 }
